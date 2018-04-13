@@ -1,0 +1,20 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "?deploy": "redeploy the Prisma service",
+    "deploy": "prisma deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "graphql-yoga": "^1.8.5",
+    "prisma-binding": "^1.5.17"
+  }
+}
