@@ -1,6 +1,8 @@
 dependencies:
+  bcryptjs: 2.4.3
   graphql: 0.13.2
   graphql-yoga: 1.8.5
+  jsonwebtoken: 8.2.1
   prisma-binding: 1.5.17
 packages:
   /@babel/runtime/7.0.0-beta.44:
@@ -256,6 +258,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-6sFuA+oUOO/5Qj1puqNiYu0fcLs=
+  /bcryptjs/2.4.3:
+    dev: false
+    resolution:
+      integrity: sha1-mrVie5PmBiH/fNrF2pczAn3x0Ms=
   /body-parser-graphql/1.0.0:
     dependencies:
       body-parser: 1.18.2
@@ -1224,6 +1230,8 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 5
 shrinkwrapVersion: 3
 specifiers:
+  bcryptjs: ^2.4.3
   graphql: ^0.13.2
   graphql-yoga: ^1.8.5
+  jsonwebtoken: ^8.2.1
   prisma-binding: ^1.5.17
